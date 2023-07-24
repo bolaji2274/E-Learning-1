@@ -1,0 +1,72 @@
+*{
+    color: #fff;
+}
+.about_achievements{
+    margin-top: 3rem;
+}
+.about_achievements-container{
+    display: grid;
+    grid-template-columns: 48% 60%;
+    gap: 5rem;
+}
+.about_achievements-right > p{
+    margin: 1.6rem 0 2rem;
+}
+.achievements_cards{
+    display: flex;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+.footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    color: #fff;
+    border: 0.1rem solid rgb(167, 168, 202);
+    background-color: #7a6ad8;
+    margin: 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+    color: #fff;
+    border: 0.1rem solid rgb(167, 168, 202);
+    background-color: #7a6ad8;
+}
+.achievement_card{
+    background: #6b57f3;
+    margin-right: 90px;
+    padding: 1.6rem;
+    border-radius: 1rem;
+    text-align: center;
+    transition: 0.5s;
+}
+.achievement_card:hover{
+    background: #5e55bb;
+    box-shadow: 0 3rem 3rem rgba(0, 0, 0, 0.3);
+}
+.achievement_icon{
+    background: rgb(58, 28, 105);
+    padding: 0.6rem;
+    border-radius: 1rem;
+    display: inline-block;
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+}
+.achievement_card p{
+    margin-top: 1rem;
+}
+.team-member .main-content ul li a{
+    background-color: #7a6ad8;
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+    font-size: 18px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    transition: all .3s;
+  }
